@@ -11,7 +11,7 @@ public class GuavaTestController {
     //key是使用spEl取得参数，根据参数name作为缓存的key，value是使用的缓存list中的那个，具体看配置类
     @Cacheable(value = "GuavaCacheAll", key = "#name")
     public String tt(String name) {
-        System.out.println("in tt");
+        System.out.println("方法没有使用本地缓存：" + name);
         return "name:" + name;
     }
 }
