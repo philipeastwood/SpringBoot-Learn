@@ -2,6 +2,7 @@ package com.os.china;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * @author ZhangPengFei
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Version 1.0.0
  */
 @SpringBootApplication
+@EnableCaching
 public class RunApplication {
 
     public static void main(String[] args) {
