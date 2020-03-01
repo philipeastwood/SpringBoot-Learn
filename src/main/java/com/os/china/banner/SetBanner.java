@@ -15,7 +15,7 @@ public class SetBanner {
 	public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(SetBanner.class);
 		// 关闭spring-boot启动时banner的日志打印
-		app.setBannerMode(Banner.Mode.OFF);
+		app.setBannerMode(Banner.Mode.CONSOLE);
 		app.run(args);
 	}
 }

@@ -18,7 +18,7 @@ public class HelloWord {
 
 	@RequestMapping(value = "/")
 	public String index(){
-		return "Hello spring-boot";
+	    return "Hello spring-boot";
 	}
 
 	public static void main(String[] args) {
